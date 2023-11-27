@@ -21,7 +21,7 @@ Esta es una API de gestión de tareas desarrollada en Laravel 10 que te permite 
 1. **Clona el Repositorio**:
 
     ```bash
-    git clone https://github.com/tu-usuario/TaskMasterAPI.git
+    git clone https://github.com/JeronimoToroC/TaskMasterAPI.git
     ```
 
 2. **Instala las Dependencias con Composer**:  
@@ -84,4 +84,4 @@ La colección de Postman para probar la API está disponible en el directorio `p
 
 ---
 
-Desarrollado con ❤️ por [TuNombre].
+Desarrollado con ❤️ por [Jerónimo Toro C].
