@@ -20,7 +20,8 @@ class Task extends Model
         'created_by',
         'is_urgent',
         'estimated_hours',
-        'completed_at'
+        'completed_at',
+        'category_id'
     ];
 
     // Relación con el usuario asignado a la tarea
@@ -33,5 +34,10 @@ class Task extends Model
     public function createdByUser()
     {
         return $this->belongsTo(User::class, 'created_by');
+    }
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
     }
 }
