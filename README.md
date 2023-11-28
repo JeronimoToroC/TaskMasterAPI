@@ -20,28 +20,28 @@ Esta es una API de gestión de tareas desarrollada en Laravel 10 que te permite 
 ## Instalación y Configuración
 
 1. **Clona el Repositorio**:
-   `bash
-  git clone https://github.com/JeronimoToroC/TaskMasterAPI.git
-  `
+    ```bash
+    git clone https://github.com/JeronimoToroC/TaskMasterAPI.git
+    ```
 2. **Instala las Dependencias con Composer**:
    Entra en el directorio del proyecto y ejecuta:
-   `bash
-  composer install
-  `
+    ```bash
+    composer install
+    ```
 3. **Configura el Archivo `.env`**:
    Copia el archivo `.env.example` a `.env` y configura tus variables de entorno.
 4. **Genera la Clave de la Aplicación**:
-   `bash
-  php artisan key:generate
-  `
+    ```bash
+    php artisan key:generate
+    ```
 5. **Ejecuta las Migraciones y Seeders**:
-   `bash
-  php artisan migrate --seed
-  `
+    ```bash
+    php artisan migrate --seed
+    ```
 6. **Inicia el Servidor Local**:
-   `bash
-  php artisan serve
-  `
+    ```bash
+    php artisan serve
+    ```
 
 La API ahora debería estar en funcionamiento en `http://localhost:8000`.
 
